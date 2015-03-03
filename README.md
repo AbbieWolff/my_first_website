@@ -14,4 +14,4 @@ Plans:
 
 I need to make sure this is secure somehow... ??
 
-I am coding this website in a text editor, for now, in phases as parts of a semester-long website design project for Hypermedia Design & Authoring class in graduate school. It is not yet ready for public sharing. I am learning how to code as I go.
+I am coding this website in a text editor, for now, in phases as part of a semester-long website design project for Hypermedia Design & Authoring class in graduate school. It is not yet ready for public sharing. I am learning how to code as I go.
