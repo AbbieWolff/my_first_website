@@ -7,36 +7,77 @@
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">         </script>
     <![endif]-->
     <style>
-      body {font-family: Verdana, sans-serif; font-size:0.8em;}
+    body {font-family: Verdana, sans-serif; font-size:0.8em;}
       header,nav, section,article,footer
       {border:1px solid grey; margin:5px; padding:8px;}
       nav ul {margin:0; padding:0;}
       nav ul li {display:inline; margin:5px;}
     </style>
-    <link rel="stylesheet" type="text/css" href="site_wide_styling.css" media="screen">
     <title>Video Games</title>
   </head>
   <body>
     <header role="banner">
+      <style>
+        header {
+          background: steelblue;
+        }      
+      </style>
       <br />
       <heading>
-      <h1>Abbie Wolff</h1>
+      <h1><embed src="my_icon.xml" alt="Icon" height="50px"></embed> Abbie Wolff</h1>
       </heading>
       <!--HEADER: I want to have a distinctive logo/graphic heading and a consistent color scheme and formatting layout across the entire website. I hope that once I learn HTML5 and CSS, etc., this will be possible. My current understanding is very limited.-->
-        <nav role="navigation" title="Site Navigation">
-          <ul title="Site Navigation" style="list-style-type:none">
-            <li><a href="favoritevideogameslistwithmedia.htm" title="This Page">This Page</a></li>
-            <li><a href="a_very_sarcastic_site_map.htm" title="Site Map">Site Map</a></li>
-            <li><a href="favoritevideogames.htm" title="Old Version of This Page">Old Version of This Page</a></li>
+          <nav role="navigation" title="Site Navigation">
+          <ul title="Site Navigation">
+            <style>
+            nav ul {
+              list-style-type: none;
+              text-align:center;
+              margin: 0; 
+              padding: 0; 
+              overflow: hidden;
+              border: 3px solid black;
+            } 
+            nav ul li {
+              float: left;
+              padding-top: 6px solid;
+              padding-right: 24px solid;
+              padding-bottom: 6px solid;
+              padding-left: 24px solid;
+              border: 2px solid black;
+              background-color: darkorange;
+            }
+            
+            nav ul a:link, nav ul a:visited {
+              display: block;
+              font-weight: bold;
+              color: white;
+              background-color: darkorange;
+              text-align: center;
+              padding: 6px;
+              text-decoration: none;
+              text-transform: uppercase;
+            }
+            nav ul a:hover, nav ul a:active {
+              background-color: orange;
+            }
+            </style>
+              <li><a href="site_map.htm" title="Site Map (New)">Site Map (New)</a></li>
+              <li><a href="a_very_sarcastic_site_map.htm" title="Site Map (Old)">Site Map (Old)</a></li>
+              <li><a href="video_games.htm" title="Video Games (New)">Video Games (New)</a></li>
+              <li><a href="favoritevideogameslistwithmedia.htm" title="Video Games (Old)">Video Games (Old)</a></li>
+              <li><a href="favoritevideogames.htm" title="Video Games (Oldest)">Video Games (Oldest)</a></li>
           </ul>
         </nav>
-        <!--FUTURE PLANS:
-                Website Plans: I left space above for site navigation links, once I have other pages in the website. I want to make a section of the website specifically about my hobbies/passions, with a page for reading (including a list of my favorite books, authors and genres), a page for video games (this one), and at *least* one page about politics/social issues. Eventually, I'd like to include these "hobby" pages within an overall larger website that features a portfolio of my work (art, design, etc.), contact information, and some way of integrating all of my social media activity in one place within the website.
-                Sharing: Once I learn how to, I will be inserting "share" buttons for social networks like Twitter, Facebook & G+ to enable easy sharing of this page, on all pages of this website. That code will probably go somewhere near here, in the header.-->
-        <hr />
     </header>
     <hr />
     <main role="main">
+    <style>
+        main {
+          background: lightsteelblue;
+        }      
+      </style>
+      </style>
     <article title="Video Games">
       <heading>
       <h2>Video Games</h2>
